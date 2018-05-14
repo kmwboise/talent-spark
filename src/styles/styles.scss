@@ -1,0 +1,82 @@
+//Vendor
+@import "vendor/bootstrap/bootstrap";
+
+//Partials
+@import "partials/styleguide";
+//Global
+@import "partials/navigation";
+@import "partials/header";
+@import "partials/footer";
+
+@import "partials/two-column";
+
+.clip {
+     position: relative;
+    @include media-breakpoint-up(md) { 
+        clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 11% 50%);
+    }
+    &:before {
+        @include media-breakpoint-up(md) { 
+            content: " ";
+            display: block;
+            position: absolute;
+            background-color: rgba(244,125,48,.7);
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            clip-path: polygon(19% 0, 0% 50%, 25% 100%, 36% 100%, 21% 50%, 36% 0, 50% 0, 34% 0, 48% 0, 34% 50%, 48% 100%, 83% 100%, 70% 50%, 83% 0);
+        }
+    }
+}
+
+.media {
+    flex: 1;
+}
+
+.border-after {
+    &:after {
+        content: " ";
+        display: block;
+        border-bottom: 2px solid $primary;
+        padding-top: 1rem;
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+.box {
+    i {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

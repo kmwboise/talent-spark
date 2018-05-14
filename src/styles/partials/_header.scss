@@ -1,0 +1,39 @@
+header {
+    margin-top: -110px;
+    padding-top: 12rem;
+    padding-bottom: calc(19rem - 59px);
+    background-image: url(../../../dist/images/marquee.jpg);
+    background-position: center center;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%);
+    position: relative;
+    
+    .container {
+        z-index: 2;
+    }
+    
+    h1, p, hr{
+        animation: fadein 4s;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(125,105,86,.4);
+        height: 100%;
+        z-index: 1;
+    }
+}
+
+@keyframes fadein {
+    from { 
+        opacity: 0; 
+        transform: translateY(-50%);
+    }
+    to   { 
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}
