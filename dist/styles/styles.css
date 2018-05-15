@@ -6499,11 +6499,13 @@ a.text-dark:hover, a.text-dark:focus {
 nav a {
   color: white; }
 
+nav .navbar-toggle i {
+  font-size: 30px; }
+
 header {
   margin-top: -110px;
   padding-top: 7rem;
   padding-bottom: calc(19rem - 59px);
-  background-position: center center;
   background-size: cover;
   position: relative; }
   header .container {
@@ -6519,11 +6521,13 @@ header {
     height: 100%; }
   #home header {
     background-image: url(../images/marquee.jpg);
+    background-position: center center;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%);
     padding-top: 12rem; }
   #about header {
-    background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80); }
+    background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80);
+    background-position: 50% 103%; }
 
 @keyframes fadein {
   from {
