@@ -2882,7 +2882,11 @@ tbody.collapse.show {
   -ms-flex-pack: justify;
       justify-content: space-between;
   padding: 0.5rem 1rem;
-  z-index: 100; }
+  z-index: 100;
+  background-color: #505050; }
+  @media (min-width: 992px) {
+    .navbar {
+      background-color: transparent; } }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -ms-flexbox;

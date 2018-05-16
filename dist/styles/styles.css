@@ -2882,7 +2882,11 @@ tbody.collapse.show {
   -ms-flex-pack: justify;
       justify-content: space-between;
   padding: 0.5rem 1rem;
-  z-index: 100; }
+  z-index: 100;
+  background-color: #505050; }
+  @media (min-width: 992px) {
+    .navbar {
+      background-color: transparent; } }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -ms-flexbox;
@@ -6504,7 +6508,7 @@ nav .navbar-toggle i {
 
 header {
   margin-top: -110px;
-  padding-top: 7rem;
+  padding-top: 9rem;
   padding-bottom: calc(19rem - 59px);
   background-size: cover;
   position: relative; }
@@ -6522,10 +6526,23 @@ header {
   #home header {
     background-image: url(../images/marquee.jpg);
     background-position: center center;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%);
-            clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%);
-    padding-top: 12rem; }
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 62%, 50% 70%, 0% 65%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 62%, 50% 70%, 0% 65%); }
+    @media (min-width: 768px) {
+      #home header {
+        padding-top: 12rem;
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%);
+                clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%); } }
   #about header {
+    background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80);
+    background-position: 50% 103%; }
+  #testimonial header {
+    background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80);
+    background-position: 50% 103%; }
+  #services header {
+    background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80);
+    background-position: 50% 103%; }
+  #contact header {
     background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80);
     background-position: 50% 103%; }
 
@@ -6550,6 +6567,10 @@ footer {
 main {
   margin-top: -7rem; }
 
+.box i {
+  font-size: 4rem;
+  margin-bottom: 1rem; }
+
 .clip-bg {
   position: relative; }
   @media (min-width: 768px) {
@@ -6561,12 +6582,19 @@ main {
       left: 0;
       right: 0;
       top: 0;
-      bottom: 0;
-      -webkit-clip-path: polygon(-23% 0, 20% 100%, 75% 100%, 32% 0%);
-              clip-path: polygon(-23% 0, 20% 100%, 75% 100%, 32% 0%); } }
-
-.c-inside {
-  background-color: #adb5bd; }
+      bottom: 0; } }
+  #about .clip-bg:before {
+    -webkit-clip-path: polygon(-23% 0, 20% 100%, 75% 100%, 32% 0%);
+            clip-path: polygon(-23% 0, 20% 100%, 75% 100%, 32% 0%); }
+  #testimonial .clip-bg:before {
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); }
+  #services .clip-bg:before {
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
+  #contact .clip-bg:before {
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
 
 .clip {
   position: relative; }
@@ -6587,6 +6615,13 @@ main {
       -webkit-clip-path: polygon(19% 0, 0% 50%, 25% 100%, 36% 100%, 21% 50%, 36% 0, 50% 0, 34% 0, 48% 0, 34% 50%, 48% 100%, 83% 100%, 70% 50%, 83% 0);
               clip-path: polygon(19% 0, 0% 50%, 25% 100%, 36% 100%, 21% 50%, 36% 0, 50% 0, 34% 0, 48% 0, 34% 50%, 48% 100%, 83% 100%, 70% 50%, 83% 0); } }
 
+.c-inside {
+  background-color: #adb5bd; }
+
+.c-services i {
+  font-size: 3rem;
+  margin-bottom: 1rem; }
+
 .media {
   -ms-flex: 1;
       flex: 1; }
@@ -6601,7 +6636,3 @@ main {
   left: 50%;
   right: 50%;
   transform: translate(-50%, -50%); }
-
-.box i {
-  font-size: 4rem;
-  margin-bottom: 1rem; }
