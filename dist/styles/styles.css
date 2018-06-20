@@ -6615,6 +6615,10 @@ main {
       -webkit-clip-path: polygon(19% 0, 0% 50%, 25% 100%, 36% 100%, 21% 50%, 36% 0, 50% 0, 34% 0, 48% 0, 34% 50%, 48% 100%, 83% 100%, 70% 50%, 83% 0);
               clip-path: polygon(19% 0, 0% 50%, 25% 100%, 36% 100%, 21% 50%, 36% 0, 50% 0, 34% 0, 48% 0, 34% 50%, 48% 100%, 83% 100%, 70% 50%, 83% 0); } }
 
+.client .c-client__logos > div {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%; }
+
 .c-inside {
   background-color: #adb5bd; }
 
