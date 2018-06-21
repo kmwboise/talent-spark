@@ -312,7 +312,7 @@ h6, .h6 {
   font-weight: 500; }
 
 h1, .h1 {
-  font-size: 3rem; }
+  font-size: 2.4rem; }
 
 h2, .h2 {
   font-size: 2rem; }
@@ -6615,9 +6615,20 @@ main {
       -webkit-clip-path: polygon(19% 0, 0% 50%, 25% 100%, 36% 100%, 21% 50%, 36% 0, 50% 0, 34% 0, 48% 0, 34% 50%, 48% 100%, 83% 100%, 70% 50%, 83% 0);
               clip-path: polygon(19% 0, 0% 50%, 25% 100%, 36% 100%, 21% 50%, 36% 0, 50% 0, 34% 0, 48% 0, 34% 50%, 48% 100%, 83% 100%, 70% 50%, 83% 0); } }
 
+.client .media {
+  -ms-flex: auto;
+      flex: auto;
+  margin-bottom: 2rem; }
+
 .client .c-client__logos > div {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%; }
+
+.client .c-client__icon-building {
+  padding: 12px 15px; }
+
+.client .c-client__icon-candidate {
+  padding: 12px 17px; }
 
 .c-inside {
   background-color: #adb5bd; }
@@ -6640,3 +6651,6 @@ main {
   left: 50%;
   right: 50%;
   transform: translate(-50%, -50%); }
+
+figure {
+  margin: 0; }
