@@ -6521,11 +6521,11 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(125, 105, 86, 0.4);
+    background-color: rgba(125, 105, 86, 0.3);
     height: 100%; }
   #home header {
-    background-image: url(../images/marquee.jpg);
-    background-position: center center;
+    background-image: url(/dist/images/TalentSpark-27.jpg);
+    background-position: center 55%;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 62%, 50% 70%, 0% 65%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 62%, 50% 70%, 0% 65%); }
     @media (min-width: 768px) {
@@ -6534,17 +6534,17 @@ header {
         -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%);
                 clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%); } }
   #about header {
-    background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80);
-    background-position: 50% 103%; }
+    background-image: url(/dist/images/29.jpg);
+    background-position: 50% 81%; }
   #testimonial header {
-    background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80);
-    background-position: 50% 103%; }
+    background-image: url(/dist/images/30.jpg);
+    background-position: 50% 80%; }
   #services header {
-    background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80);
-    background-position: 50% 103%; }
+    background-image: url(/dist/images/TalentSpark-8.jpg);
+    background-position: 50% 66%; }
   #contact header {
-    background-image: url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=1055&q=80);
-    background-position: 50% 103%; }
+    background-image: url(/dist/images/TalentSpark-18.jpg);
+    background-position: 50% 57%; }
 
 @keyframes fadein {
   from {
