@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import url(/node_modules/aos/dist/aos.css);
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6563,6 +6564,13 @@ footer {
       color: antiquewhite;
       font-size: 3px;
       vertical-align: middle; }
+
+.breadcrumb {
+  background-color: transparent; }
+  .breadcrumb a {
+    color: #f47d30; }
+  .breadcrumb-item.active {
+    color: #505050; }
 
 main {
   margin-top: -7rem; }
