@@ -7222,14 +7222,38 @@ header {
     transform: translateY(0); } }
 
 footer {
-  background-color: #505050;
-  padding: 2rem 0; }
+  padding: 3rem 0 0;
+  color: white; }
   footer ul {
     margin-bottom: 0; }
-    footer ul i {
-      color: antiquewhite;
-      font-size: 3px;
-      vertical-align: middle; }
+    footer ul a {
+      display: block;
+      color: white; }
+    footer ul li.footer-links {
+      border-bottom: 1px solid white;
+      padding: 8px 0;
+      position: relative; }
+      footer ul li.footer-links:last-child {
+        border: none; }
+      footer ul li.footer-links i {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-50%, -50%); }
+    footer ul li.title {
+      margin: 0 0 10px;
+      padding: 0 0 5px;
+      border: none;
+      position: relative;
+      color: white; }
+      footer ul li.title:after {
+        content: "";
+        background: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100px; }
 
 .breadcrumb {
   background-color: transparent; }
@@ -7267,8 +7291,8 @@ main {
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
             clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
   #contact .clip-bg:before {
-    -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 99%, 0% 100%);
-            clip-path: polygon(25% 0%, 100% 0%, 100% 99%, 0% 100%); }
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%); }
 
 .clip {
   position: relative; }
