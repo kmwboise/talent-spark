@@ -7178,11 +7178,15 @@ nav .navbar-toggle i {
     padding: 0; } }
 
 header {
-  margin-top: -110px;
-  padding-top: 9rem;
-  padding-bottom: calc(19rem - 59px);
+  padding-bottom: 110px;
+  background-position: center center;
   background-size: cover;
   position: relative; }
+  @media (min-width: 768px) {
+    header {
+      margin-top: -103px;
+      padding-top: 9rem;
+      padding-bottom: calc(19rem - 166px); } }
   header .container {
     z-index: 2; }
   header h1, header p, header hr {
@@ -7192,30 +7196,31 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(125, 105, 86, 0.3);
+    background-color: rgba(125, 105, 86, 0.2);
     height: 100%; }
   #home header {
-    background-image: url(/dist/images/TalentSpark-27.jpg);
+    background-image: url(/dist/images/talent-spark-marquee.jpg);
     background-position: center 55%;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 62%, 50% 70%, 0% 65%);
-            clip-path: polygon(0% 0%, 100% 0%, 100% 62%, 50% 70%, 0% 65%); }
+            clip-path: polygon(0% 0%, 100% 0%, 100% 62%, 50% 70%, 0% 65%);
+    padding-bottom: calc(19rem - 100px);
+    padding-top: 3rem; }
     @media (min-width: 768px) {
       #home header {
         padding-top: 12rem;
+        padding-bottom: calc(19rem - 59px);
         -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%);
                 clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%); } }
   #about header {
-    background-image: url(/dist/images/29.jpg);
-    background-position: 50% 81%; }
+    background-image: url(/dist/images/about-talent-spark-recruiting.jpg); }
   #testimonial header {
-    background-image: url(/dist/images/30.jpg);
-    background-position: 50% 80%; }
+    background-image: url(/dist/images/clients-of-talent-spark.jpg);
+    background-position: center center; }
   #services header {
-    background-image: url(/dist/images/TalentSpark-8.jpg);
-    background-position: 50% 66%; }
+    background-image: url(/dist/images/22.jpg); }
   #contact header {
-    background-image: url(/dist/images/TalentSpark-18.jpg);
-    background-position: 50% 57%; }
+    background-image: url(/dist/images/contact-talent-spark.jpg);
+    background-position: 50% 26%; }
 
 @keyframes fadein {
   from {
@@ -7266,11 +7271,11 @@ footer {
   .breadcrumb-item.active {
     color: #505050; }
 
-main {
+#home main {
   margin-top: -7rem; }
 
 .box i {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem; }
 
 .clip-bg {
@@ -7332,10 +7337,19 @@ main {
           flex-basis: 25%; } }
 
 .client .c-client__icon-building {
-  padding: 12px 15px; }
+  padding: 12px 18px; }
 
 .client .c-client__icon-candidate {
-  padding: 12px 17px; }
+  padding: 12px 15px; }
+
+.client .c-client__icon-house {
+  padding: 12px 14px; }
+
+.client .c-client__icon-heart {
+  padding: 13px 14px; }
+
+.client .c-client__icon-leaf {
+  padding: 14px; }
 
 .c-inside {
   background-color: #adb5bd; }
