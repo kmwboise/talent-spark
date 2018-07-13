@@ -7233,6 +7233,10 @@ header {
     opacity: 1;
     transform: translateY(0); } }
 
+@supports (-ms-ime-align: auto) {
+  #home header {
+    max-height: 425px; } }
+
 footer {
   padding: 3rem 0 0;
   color: white; }
@@ -7280,6 +7284,7 @@ footer {
     #home main {
       margin-top: 4rem; } }
 
+/* Microsoft Edge Browser 12+ (All) - @supports method */
 @supports (-ms-ime-align: auto) {
   #home main {
     margin-top: 4rem; } }
@@ -7335,6 +7340,7 @@ footer {
     .clip:before {
       background-color: transparent; } }
 
+/* Microsoft Edge Browser 12+ (All) - @supports method */
 @supports (-ms-ime-align: auto) {
   .clip:before {
     background-color: transparent; } }
