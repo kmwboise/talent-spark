@@ -7196,7 +7196,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(125, 105, 86, 0.2);
+    background-color: rgba(125, 105, 86, 0.3);
     height: 100%; }
   #home header {
     background-image: url(/dist/images/talent-spark-marquee.jpg);
@@ -7217,7 +7217,7 @@ header {
     background-image: url(/dist/images/clients-of-talent-spark.jpg);
     background-position: center center; }
   #services header {
-    background-image: url(/dist/images/22.jpg); }
+    background-image: url(/dist/images/services-talent-spark.jpg); }
   #contact header {
     background-image: url(/dist/images/contact-talent-spark.jpg);
     background-position: 50% 26%; }
