@@ -7211,6 +7211,9 @@ header {
         padding-bottom: calc(19rem - 59px);
         -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%);
                 clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 70%, 0% 55%); } }
+    @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+      #home header {
+        max-height: 425px; } }
   #about header {
     background-image: url(/dist/images/about-talent-spark-recruiting.jpg); }
   #testimonial header {
@@ -7273,6 +7276,9 @@ footer {
 
 #home main {
   margin-top: -7rem; }
+  @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+    #home main {
+      margin-top: 4rem; } }
 
 .box i {
   font-size: 3.5rem;
