@@ -7233,6 +7233,7 @@ header {
     opacity: 1;
     transform: translateY(0); } }
 
+/* Microsoft Edge Browser 12+ (All) - @supports method */
 @supports (-ms-ime-align: auto) {
   #home header {
     max-height: 425px; } }
