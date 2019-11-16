@@ -1,6 +1,6 @@
 //Vendor
 @import "vendor/bootstrap/bootstrap";
-@import "node_modules/aos/src/sass/aos";
+//@import "node_modules/aos/src/sass/aos";
 
 //Partials
 @import "partials/styleguide";
@@ -16,6 +16,7 @@
 @import "partials/client";
 @import "partials/email-signup";
 @import "partials/services";
+@import "partials/blog";
 
 
 .media {
