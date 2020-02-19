@@ -1,6 +1,6 @@
 //Vendor
 @import "vendor/bootstrap/bootstrap";
-//@import "node_modules/aos/src/sass/aos";
+@import "node_modules/aos/src/sass/aos";
 
 //Partials
 @import "partials/styleguide";
@@ -17,7 +17,6 @@
 @import "partials/email-signup";
 @import "partials/services";
 @import "partials/blog";
-
 
 .media {
     flex: 1;
@@ -40,30 +39,3 @@
 figure {
     margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
